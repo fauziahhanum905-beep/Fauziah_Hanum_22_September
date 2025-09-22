@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="style.css">
+</head>        
+<body>
+    <div class="form-container">
+      <form id="register form">
+            <input type="text" id="nama" placeholder="Masukan nama"
+            required/>
+            <input type="email" id="email" placeholder="Masukan email"
+            required/>
+            <input type="password" id="password" placeholder="Masukan password"
+            required/>
+            <input type="date" id="tanggal" placeholder="Tanggal lahir"
+            required/>
+
+            <label>jenis kelamin:</label>
+            <div class="radio-group">
+               <input type="radio" name="gender" id="laki-laki"
+               value="laki-laki" required/>
+               <label for="laki-laki">laki-laki</label>
+               <input type="radio" name="gender" id="wanita"
+               value="wanita"/>
+               <table for="wanita">wanita</table>
+            </div> 
+
+            <input type="text" id="tempat" placeholder="tempat tanggal lahir"
+            required/>
+            <input type="number" id="no_telp" placeholder="Masukan No Telp"
+            required/>
+            <textarea id="alamat" rows="8" cols="48" placeholder="masukan alamat lengkap"
+            required></textarea>
+
+            <input type="checkbox" id="setuju" />
+            <label for="setuju">Anda menyetujui syarat dan ketentuan</label>
+
+            <a href="Login,html"=>Login</a>
+            <button type="submit">buat akun</button>
+        
+            nama
+            email
+            password
+            tanggal lahir
+            tempat tanggal lahir
+            no telp
+            alamat
+
+      </form>
+   </div>
+
+   <table id="data table" border="1">
+     <head>
+      <tr>
+        <th>Nama</th>
+        <th>Email</th>
+        <th>Tanggal lahir</th>
+        <th>Tempat tanggal lahir</th>
+        <th>Jenis kelamin</th>
+        <th>No Telp</th>
+        <th>Alamat</th>
+      </tr>
+     </thead>
+     <tbody>
+
+     </tbody>
+    </script src="script.js"></script>
+   </table>  
+  </body>
+</html>
